@@ -1,8 +1,3 @@
-/* 
- * Utility definitions and declarations 
- * -- list, list iterator
- */
-
 #ifndef _UTIL_H_
 #define _UTIL_H_
 #define NEW(p) ((p) = malloc(sizeof *(p)))
@@ -67,4 +62,5 @@ void	*nextItem	(ListItr itr);
 bool	hasPrevious	(ListItr itr);
 void	*prevItem	(ListItr itr);
 void	destroyListItr	(ListItr *itr);
-#endif //!def(_UTIL_H_)
+char*   ToStr(char*);
+#endif 

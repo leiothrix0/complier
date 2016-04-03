@@ -1,10 +1,8 @@
 %{
 #include "common.h"
-#include "util.h"
 #include <string.h>
 #define YYSTYPE ASTNode
 #include "syntax.tab.h"
-char* ToStr(char*);
 #define handle(token) \
 do { \
 	yylval = newToken();\

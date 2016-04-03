@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
 #include "common.h"
-extern char* ToStr(char*);
 ASTNode
 newNode(char *name, int lineno, int num, ...) {
     ASTNode new0;

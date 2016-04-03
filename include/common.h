@@ -14,5 +14,7 @@ typedef struct astnode {
     int lineno;
 } *ASTNode;
 
+void printAST(ASTNode, int);
+ASTNode newNode(char*, int, int, ...);
 
 #endif

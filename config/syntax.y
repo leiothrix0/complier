@@ -4,8 +4,6 @@
 #include "common.h"
 #define YYSTYPE ASTNode
 ASTNode ast;
-ASTNode newNode(char*, int, int, ...);
-char* ToStr(char*);
 extern bool errorStatus;
 int yylex();
 void yyerror(char*);
